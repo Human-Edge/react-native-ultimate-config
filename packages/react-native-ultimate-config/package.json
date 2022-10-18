@@ -1,6 +1,6 @@
 {
   "name": "react-native-ultimate-config-patch",
-  "version": "4.0.0-patch",
+  "version": "4.0.0-patch-v2",
   "description": "Fixing gradle issues in react-native-ultimate-config for rn > 0.69.0",
   "main": "index.js",
   "react-native": "index.js",
