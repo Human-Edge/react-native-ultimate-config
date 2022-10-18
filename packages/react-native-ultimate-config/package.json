@@ -1,8 +1,7 @@
 {
-  "name": "react-native-ultimate-config",
-  "title": "React Native Ultimate Config",
-  "version": "4.0.0",
-  "description": "Config that works",
+  "name": "react-native-ultimate-config-patch",
+  "version": "4.0.0-patch",
+  "description": "Fixing gradle issues in react-native-ultimate-config for rn > 0.69.0",
   "main": "index.js",
   "react-native": "index.js",
   "browser": "index.web.js",
@@ -17,6 +16,9 @@
     "android/rnuc.gradle",
     "react-native-ultimate-config.podspec"
   ],
+  "directories": {
+    "example": "example"
+  },
   "scripts": {
     "test": "jest",
     "prepack": "echo '#error \"invoke bin.js with env file before compiling native project\"' > ios/ConfigValues.h"
@@ -26,8 +28,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/maxkomarychev/react-native-ultimate-config.git",
-    "baseUrl": "https://github.com/maxkomarychev/react-native-ultimate-config"
+    "url": "git+https://github.com/Human-Edge/react-native-ultimate-config.git"
   },
   "keywords": [
     "react-native",
@@ -46,8 +47,7 @@
     "typescript"
   ],
   "author": {
-    "name": "Max Komarychev",
-    "email": "maxkomarychev@gmail.com"
+    "name": "Human Edge"
   },
   "license": "MIT",
   "licenseFilename": "LICENSE",
